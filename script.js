@@ -2,7 +2,6 @@ const qnas = document.querySelectorAll(".qna");
 
 qnas.forEach((eachQna) => {
 	eachQna.addEventListener("click", () => {
-		console.dir(eachQna);
 		let qnaValue = eachQna.dataset.value;
 		let qnaAnswer = eachQna.lastElementChild;
 		let qnaIcon = eachQna.firstElementChild.lastElementChild;
